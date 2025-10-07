@@ -1,4 +1,11 @@
+
+
 # AES Hardware Verification — SystemVerilog + DPI-C + Python
+
+[![Made with SystemVerilog](https://img.shields.io/badge/Made%20with-SystemVerilog-orange)]()
+[![DPI-C](https://img.shields.io/badge/DPI-C-blue)]()
+[![Python](https://img.shields.io/badge/Python-2.7-yellow)]()
+[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
 
 This project demonstrates **hardware/software co-simulation** between a SystemVerilog testbench, a C++ DPI layer, and a Python reference model.  
 The goal is to verify a **hardware AES-128 ECB encryption core** against a **Python software reference** through socket communication.
