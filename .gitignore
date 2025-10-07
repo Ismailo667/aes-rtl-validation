@@ -1,0 +1,26 @@
+# ModelSim/Questa artefacts
+work/
+transcript
+vsim.wlf
+*.qdb
+*.qpg
+*.qtl
+*_vmake
+*_opt/
+_temp/
+_tempmsg/
+
+# Build outputs
+TP/client.so
+
+# Coverage
+cov/*.ucdb
+cov/*.txt
+
+# Logs
+TP/logs/*
+
+# OS/editor
+.DS_Store
+*.swp
+
